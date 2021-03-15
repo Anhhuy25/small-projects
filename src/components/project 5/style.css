@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 24px auto;
+}
+
+.phone-img {
+  width: auto;
+  height: 200px;
+}
+
+.phone-name {
+  font-size: 17px;
+  color: #333;
+  margin: 8px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.phone-price {
+  color: #f00;
+  font-size: 17px;
+  margin: 8px;
+}
+
+.phone-info {
+  border-top: 1px dashed #ccc;
+  padding-top: 10px;
+}
+
+.phone-info p {
+  color: #666;
+  padding: 3px 0;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 110px 110px 110px 110px 125px 110px;
+  column-gap: 1.5rem;
+  margin: 8px;
+  justify-content: center;
+}
+
+.select {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #288ad6;
+}
+
+.checbox {
+  display: flex;
+  flex-direction: column;
+}
